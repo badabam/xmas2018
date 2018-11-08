@@ -1,0 +1,7 @@
+import React, { Component } from 'react'
+import './Counter.css'
+export default class Counter extends Component {
+  render() {
+    return <h1 className="Counter">Doors open: {this.props.num}</h1>
+  }
+}
